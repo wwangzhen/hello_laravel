@@ -14,9 +14,10 @@ class ComposerStaticInit8ef7f3db048d37d63381c1c233e431e0
         '2c102faa651ef8ea5874edb585946bce' => __DIR__ . '/..' . '/swiftmailer/swiftmailer/lib/swift_required.php',
         'f0906e6318348a765ffb6eb24e0d0938' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Foundation/helpers.php',
         '58571171fd5812e6e447dce228f52f4d' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Support/helpers.php',
-        '801c31d8ed748cfa537fa45402288c95' => __DIR__ . '/..' . '/psy/psysh/src/functions.php',
         '6124b4c8570aa390c21fafd04a26c69f' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
+        '801c31d8ed748cfa537fa45402288c95' => __DIR__ . '/..' . '/psy/psysh/src/functions.php',
         '0d8253363903f0ac7b0978dcde4e28a0' => __DIR__ . '/..' . '/beyondcode/laravel-dump-server/helpers.php',
+        '752af1c2bdb339e8474c3c31b22b7d54' => __DIR__ . '/..' . '/illuminate/html/helpers.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -82,6 +83,7 @@ class ComposerStaticInit8ef7f3db048d37d63381c1c233e431e0
         ),
         'I' => 
         array (
+            'Illuminate\\Html\\' => 16,
             'Illuminate\\' => 11,
         ),
         'F' => 
@@ -118,8 +120,8 @@ class ComposerStaticInit8ef7f3db048d37d63381c1c233e431e0
         'phpDocumentor\\Reflection\\' => 
         array (
             0 => __DIR__ . '/..' . '/phpdocumentor/reflection-common/src',
-            1 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
-            2 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
+            1 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
+            2 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
         ),
         'XdgBaseDir\\' => 
         array (
@@ -237,6 +239,10 @@ class ComposerStaticInit8ef7f3db048d37d63381c1c233e431e0
         array (
             0 => __DIR__ . '/..' . '/laravel/tinker/src',
         ),
+        'Illuminate\\Html\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/illuminate/html',
+        ),
         'Illuminate\\' => 
         array (
             0 => __DIR__ . '/..' . '/laravel/framework/src/Illuminate',
@@ -335,6 +341,7 @@ class ComposerStaticInit8ef7f3db048d37d63381c1c233e431e0
         'App\\Http\\Controllers\\Auth\\ResetPasswordController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/ResetPasswordController.php',
         'App\\Http\\Controllers\\Auth\\VerificationController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/VerificationController.php',
         'App\\Http\\Controllers\\Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Controller.php',
+        'App\\Http\\Controllers\\IndexController' => __DIR__ . '/../..' . '/app/Http/Controllers/IndexController.php',
         'App\\Http\\Kernel' => __DIR__ . '/../..' . '/app/Http/Kernel.php',
         'App\\Http\\Middleware\\Authenticate' => __DIR__ . '/../..' . '/app/Http/Middleware/Authenticate.php',
         'App\\Http\\Middleware\\CheckForMaintenanceMode' => __DIR__ . '/../..' . '/app/Http/Middleware/CheckForMaintenanceMode.php',
@@ -1443,6 +1450,11 @@ class ComposerStaticInit8ef7f3db048d37d63381c1c233e431e0
         'Illuminate\\Hashing\\BcryptHasher' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Hashing/BcryptHasher.php',
         'Illuminate\\Hashing\\HashManager' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Hashing/HashManager.php',
         'Illuminate\\Hashing\\HashServiceProvider' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Hashing/HashServiceProvider.php',
+        'Illuminate\\Html\\FormBuilder' => __DIR__ . '/..' . '/illuminate/html/FormBuilder.php',
+        'Illuminate\\Html\\FormFacade' => __DIR__ . '/..' . '/illuminate/html/FormFacade.php',
+        'Illuminate\\Html\\HtmlBuilder' => __DIR__ . '/..' . '/illuminate/html/HtmlBuilder.php',
+        'Illuminate\\Html\\HtmlFacade' => __DIR__ . '/..' . '/illuminate/html/HtmlFacade.php',
+        'Illuminate\\Html\\HtmlServiceProvider' => __DIR__ . '/..' . '/illuminate/html/HtmlServiceProvider.php',
         'Illuminate\\Http\\Concerns\\InteractsWithContentTypes' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Http/Concerns/InteractsWithContentTypes.php',
         'Illuminate\\Http\\Concerns\\InteractsWithFlashData' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Http/Concerns/InteractsWithFlashData.php',
         'Illuminate\\Http\\Concerns\\InteractsWithInput' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Http/Concerns/InteractsWithInput.php',

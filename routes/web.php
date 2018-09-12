@@ -11,6 +11,4 @@
 |
 */
 
-Route::get('/', function () {
-    echo "11";
-});
+Route::get('/',"IndexController@index");
